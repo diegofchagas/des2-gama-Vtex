@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos!</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <body>
+        
+        <header> 
+            <div class="container">
+                <img id="logo2" src="./img/produto.png.crdownload" alt="logotipo" width="120">
+                <div>
+                    <h3>
+                        <a class="back" href="index.html">Voltar</a>
+                    </h3>
+                </div>
+            </div>
+        </header> 
+        
+        <div class="box">
+                <div class="box-item">
+                    <h2>Cadastrar Produtos</h2>
+                    
+                    <div class="item">
+                        <input type="text" id="nameProduct" placeholder="" required>
+                        <label id="labelNameProduct" for="nameProduct">Nome do produto</label>
+                    </div>
+    
+                    <div class="item">
+                        <input type="text" id="price" placeholder="" required >
+                        <label id="labelPrice" for="price">Preço</label>
+                    </div>
+    
+                    <div class="item">
+                        <input type="text" id="size" placeholder="" required >
+                        <label label="labelSize" for="size">Tamanho</label>
+                    </div>
+    
+                    <div class="item">
+                        <input type="text" id="description" placeholder="" required>
+                        <label id="labelDescription"  for="description" >Descrição</label>
+                    </div>
+    
+                        <div class="btn">
+                            <button onclick="conteudoStorage()" > Cadastrar </button>
+                        </div>
+                </div>
+        </div>
+    </div>
+        
+    
+    <div class="tabela">
+        <table width="60%" border=" solid 1px"  >
+          <th>Produto</th>
+          <th>Preço</th>
+          <th>Tamanho</th>
+          <th>Descrição</th>
+          <tbody id="corpoTabela">
+      
+          </tbody>
+        </table>
+      </div>
+    
+      <footer>
+        <br>
+        <br>
+        <span class="nome">Desenvolvido por: &#128515</span>
+        <span>
+         <a  class="link" href="https://github.com/diegofchagas"  target="blank" class="nome"> &copy; Diego Chagas </a>
+        </span>
+    </footer>
+    
+    <script src="produto.js"></script>
+    
+</body>
+</html>
